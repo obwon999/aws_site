@@ -17,6 +17,9 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+# Contants File
+constants.php
+
 # =========================
 # Operating System Files
 # =========================
