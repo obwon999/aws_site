@@ -88,10 +88,10 @@
 
                     <div class="col-sm-4 col-lg-4 col-md-4">
                         <div class="thumbnail">
-                            <img src="<?php echo $Item->LargeImage->URL ?>" alt="">
+                            <img src="<?php echo $Item->LargeImage->URL; ?>" alt="">
                             <div class="caption">
-                                <h4 class="pull-right"><?php echo $Item->OfferSummary->LowestNewPrice->FormattedPrice ?></h4>
-                                <h4><a href="#"><?php echo $Item->ItemAttributes->Title ?></a>
+                                <h4 class="pull-right"><?php echo $Item->OfferSummary->LowestNewPrice->FormattedPrice; ?></h4>
+                                <h4><a href="#"><?php echo $Item->ItemAttributes->Title; ?></a>
                                 </h4>
                                 <p>This is a short description. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                             </div>
